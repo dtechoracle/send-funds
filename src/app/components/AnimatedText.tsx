@@ -81,6 +81,10 @@ const AnimatedText = () => {
         onClose={() => setIsModalOpen(false)}
         onSent={handleSent}
       />
+
+      <p className="absolute bottom-4">
+        with ❤️ from <a href="https://x.com/dtechoracle">dtechoracle</a>
+      </p>
     </div>
   );
 };
