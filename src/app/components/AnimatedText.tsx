@@ -25,7 +25,7 @@ const AnimatedText = () => {
     );
   }, []);
 
-  const text = isSent ? "Thanks for sending!" : "Send me money";
+  const text = isSent ? "Thanks for sending!" : "Do me small funds";
   const letters = text.split("").map((char, index) => (
     <span key={index} className="letter inline-block">
       {char === " " ? "\u00A0" : char}
