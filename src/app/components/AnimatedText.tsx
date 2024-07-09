@@ -83,12 +83,12 @@ const AnimatedText = () => {
       />
 
       <p className="absolute bottom-4">
-        with ❤️ and sapa {""}
+        with ❤️ and sapa {""}.
         <a
           href="https://github.com/dtechoracle/send-funds"
           className="text-blue-300"
         >
-          repo
+          Repo
         </a>
       </p>
     </div>
